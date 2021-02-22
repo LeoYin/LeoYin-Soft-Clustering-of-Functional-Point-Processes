@@ -24,3 +24,6 @@ The team has access to detailed transaction records (i.e., time stamps of buying
  
  
  ### Results
+ The credit card customers are clustered into 6 groups, and the Figure below shows the estimated intensity functions within each cluster;
+ 
+ ![image](Figures/ESL.png)
