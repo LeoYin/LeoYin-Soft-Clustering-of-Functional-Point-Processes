@@ -12,7 +12,11 @@ key words: Functional PCA; EM algorithm; GPU; array programming;
  This code shows a GPU implementation of a joint model for temporal point processes and time-to-event outcomes through Pytorch. 
  
  ### Project Description
- An important goal in studying human activity patterns is to identify user groups displaying similar behavioral patterns. We will propose a method to cluster the credit card customers into sub-populations in terms of their credit card transaction records; Also, the proposed method can be applied to study other human acitivities, such as the posting and reposting acitivities on Twitter, buying activities of stock investors;
+ An important goal in studying human activity patterns is to identify user groups displaying similar behavioral patterns. One can further look into each cluster to better understand the underlying cause for certain activity patterns and to make some necessary adjustments (e.g. behavioral interventions). The goal of this project is to develop a unified approach to model human activity patterns and simultaneously form user clusters accordingly.
+ 
+ The figures below show the time stamps for Twitter users in a window of 30 consecutive days. The blue points indicate the posting acitivities and the black indicate the reposting activities. All the users clearly seem to have strong clustered patterns. However, these posting patterns differ significantly in many ways, such as posting frequencies, percentages of original posts and reposts, and strengths of clustering. It is of interest to characterize these activity patterns and quantify their differences. We also want to know more specific questions including, (a) what the distribution of posting in one day; (2) how many posts would a user generate during each use? (c) how user-related characteristics were related to the posting and reposting patterns? (d) 
+ 
+ 
  
  
  ### Data Description
