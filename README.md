@@ -32,6 +32,6 @@ The team has access to data from 54,773 followers of a public Twitter account du
  
  
  ### Results
- The credit card customers are clustered into 6 groups, and the Figure below shows the estimated intensity functions within each cluster;
+ The Twitter users are clustered into 6 groups, and the Figure below shows the estimated intensity functions within each cluster;
  
  ![image](Figures/ESL.png)
